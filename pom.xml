@@ -8,6 +8,7 @@
         <module>douyin-user-8100</module>
         <module>douyin-gateway-8000</module>
         <module>douyin-common</module>
+        <module>douyin-auth-8200</module>
     </modules>
     <parent>
         <!--  使用SpringBoot作为父工程   -->

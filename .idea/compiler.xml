@@ -6,14 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="douyin-gateway-8000" />
         <module name="douyin-user-8100" />
+        <module name="douyin-gateway-8000" />
+        <module name="douyin-auth-8200" />
         <module name="douyin-common" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="douyin-auth-8200" options="-parameters" />
       <module name="douyin-common" options="-parameters" />
       <module name="douyin-gateway-8000" options="-parameters" />
       <module name="douyin-parent" options="-parameters" />
