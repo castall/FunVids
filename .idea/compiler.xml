@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -10,6 +11,7 @@
         <module name="douyin-gateway-8000" />
         <module name="douyin-auth-8200" />
         <module name="douyin-common" />
+        <module name="douyin-video-8400" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,8 +20,9 @@
       <module name="douyin-auth-8200" options="-parameters" />
       <module name="douyin-common" options="-parameters" />
       <module name="douyin-gateway-8000" options="-parameters" />
-      <module name="douyin-parent" options="-parameters" />
+      <module name="douyin-parent" options="" />
       <module name="douyin-user-8100" options="-parameters" />
+      <module name="douyin-video-8400" options="-parameters" />
     </option>
   </component>
 </project>

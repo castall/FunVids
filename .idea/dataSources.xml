@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:mysql://82.157.231.210:3300/user_db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="@TenCloud" uuid="77dd53f8-2c9a-44b6-9d9f-d511e6b257a5">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://81.70.242.184:7348/</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
